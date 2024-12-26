@@ -20,6 +20,8 @@ In order to use this script, you would need to familiarize yourself with azdo ag
 2. Run the docker command and replace all arguments (<>) with yours. If you need help with this, refer back to the article and learn about the 
     ```docker run -e AZP_URL="<Azure DevOps instance>" -e AZP_TOKEN="<Personal Access Token>" -e AZP_POOL="<Agent Pool Name>" -e AZP_AGENT_NAME="Docker AzdoAgent - Linux" --name "azp-agent-linux" azdo-agent:linux ```
 3. Agent should now be running
+-  <img width="764" alt="image" src="https://github.com/user-attachments/assets/b90025bc-f012-4b47-a820-914974e2637c" />
+
 ## Test 
 1. Navigate to your azure devops repository
 2. Navigate to organization setting
