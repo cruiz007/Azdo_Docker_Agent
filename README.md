@@ -1,6 +1,11 @@
 # Azdo_Docker_Agent
-### Reference: https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/docker?view=azure-devops
-### Note: This is a repository for the scripts that help build and tag a docker image an microsoft azure devops build agent.
+### Reference: 
+- https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/docker?view=azure-devops
+### Pre-built Image:
+- Docker: docker pull cruiz007/azp-agent:latest
+### Note: 
+- This is a repository for the scripts that help build and tag a docker image an microsoft azure devops build agent.
+- If you already have an image or you pulled the pre-built image from container regitry, Skip to `Run`
 In order to use this script, you would need to familiarize yourself with azdo agent and how they typically work. A few things to consider are:
 - Agent pool
 - Agent name
