@@ -11,7 +11,7 @@ In order to use this script, you would need to familiarize yourself with azdo ag
 - Agent name
 - Agent capabilities (Here is where the code can be modified to fit your needs)
 - Azdo url
-- Personal Access Token(PAT)
+- Personal Access Token(PAT)- This can be generated withing your organizations azdo profile
 - Agent work folder
 - check for the 
 ## Build
@@ -23,7 +23,7 @@ In order to use this script, you would need to familiarize yourself with azdo ag
 ## Run
 1. Start the container using the tagged image by running the `Docker run` command below
 2. Run the docker command and replace all arguments (<>) with yours. If you need help with this, refer back to the article and learn about the environment variables needed for the the agent to startup
-    ```docker run -e AZP_URL="<Azure DevOps instance>" -e AZP_TOKEN="<Personal Access Token>" -e AZP_POOL="<Agent Pool Name>" -e AZP_AGENT_NAME="Docker AzdoAgent - Linux" --name "azp-agent-linux" azdo-agent:linux ```
+    ```docker run -e AZP_URL="<Azure DevOps instance>" -e AZP_TOKEN="<Personal Access Token>" -e AZP_POOL="<Agent Pool Name>" -e AZP_AGENT_NAME="Docker AzdoAgent - Linux" --name "azp-agent-linux" azdo-agent-linux ```
 3. Agent should now be running
 -  <img width="764" alt="image" src="https://github.com/user-attachments/assets/b90025bc-f012-4b47-a820-914974e2637c" />
 
